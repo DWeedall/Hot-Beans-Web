@@ -1,0 +1,282 @@
+* {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-kerning: auto;
+}
+html {
+  line-height: 2.35;
+  font-weight: 400;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  background: #3D2A1B;
+  margin: 0;
+}
+header {
+  color: #FFDE82;
+  padding: 1em;
+  background: #3D2A1B;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+}
+header nav {
+  display: block;
+  overflow: hidden;
+}
+header nav a {
+  display: inline-block;
+  padding: .85em;
+  color: #FFDE82;
+  font-weight: 600;
+
+  float: left;
+}
+a {
+  outline: none;
+  text-decoration: none;
+}
+footer {
+  color: #FFDE82;
+  padding: 2em;
+  text-align: center;
+  font-family: Roboto;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 .5em 0;
+  letter-spacing: -.02em;
+}
+h1 {
+  font-family: Roboto;
+}
+
+h2 {
+  font-family: Roboto;]
+  	font-size: 20pt;
+	font-weight: 400;
+	color: #F08156;
+}
+
+
+h3{
+  font-family: Roboto;
+}
+
+h4{
+  font-family: Roboto;
+}
+
+h5{
+  font-family: Roboto;
+}
+
+h6{
+  font-family: Roboto;
+}
+
+a{
+  font-family: Roboto;
+}
+
+a:hover { 
+    background-color: #3D2A1B;
+	color: #F08156;
+}
+
+p {
+  margin: 0;
+  font-family: Roboto;
+   margin: 50px
+}
+#P2 {
+  margin: 0;
+  font-family: Roboto;
+}
+p + p {
+  margin-top: .5em;
+}
+div {
+  padding: 0em;
+  background: #F0D3A6;
+
+}
+div h3 {
+  color: #F08156;
+}
+div p {
+  color: #F08156;
+}
+main {
+  background: #F0D3A6;
+  padding-bottom: 1.5em;
+}
+main section,
+main aside {
+  padding: 1.5em;
+  padding-bottom: 0;
+}
+main article {
+  padding: 1em;
+  background: #F0D3A6;
+  border-radius: 2px;
+	
+}
+
+
+main article p {
+  color: #3D2A1B;
+  line-height: 1.5;
+}
+
+@media (min-width: 800px) {
+  header,
+  main {
+    overflow: hidden;
+  }
+
+  main section,
+  main aside {
+    float: right;
+    width: 30%;
+	  padding-left: 0;
+  }
+  main section {
+    width: 70%;
+    float: left;
+    padding-right:0;
+	  padding-left: 10;
+  }
+
+  header h1 {
+    float: left;
+  }
+  header nav {
+    float: right;
+  }
+/* Three columns side by side */
+.column {
+  float: left;
+  width: 20%;
+  margin-bottom: 18px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.title {
+  color: #F08156;
+}
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=email], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=tel], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=date], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=file], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #3D2A1B;
+  color: #FFDE82;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #FFDE82;
+  color: #3D2A1B;
+}
+}
